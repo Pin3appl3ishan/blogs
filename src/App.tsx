@@ -1,5 +1,9 @@
+import Navigation from "./components/Navigation";
+
 const App = () => {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return <div>
+    <Navigation/>
+  </div>
 };
 
 export default App;
